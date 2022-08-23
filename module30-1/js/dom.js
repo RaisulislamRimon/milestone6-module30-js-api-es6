@@ -20,7 +20,7 @@ document.getElementById("add-friend").addEventListener("click", function () {
   //   console.log("add-friend");
   const friendContainer = document.getElementById("friends");
   const friend = document.createElement("div");
-  //   friend.classList.add("friend");
+  friend.classList.add("friend");
   friend.innerHTML = `
     <h3 class="friend-name">New Friend</h3>
     <p>Something new added</p>
